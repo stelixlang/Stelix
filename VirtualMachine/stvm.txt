@@ -1,0 +1,8 @@
+[MODEL] [CLASS] 'Application' [EX]
+
+[MARKER] _start () [EX]
+[CR_FUNC] 'void' 'main' 'System.Array<String> args' [EX]
+    [CALL_FUNC] "system.Shell" "WriteLn" "STACK()" [EX]
+[END_FUNC] 'main' [EX]
+
+[END_MODEL] 'Application' [EX]
